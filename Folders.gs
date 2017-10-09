@@ -125,7 +125,7 @@ function create_new_brand(){
 
   
     //Create Supplier/Brand Sub-Directory
-  var inputsupplier= "Bulletproof";
+  var inputsupplier= "Jomeis Fine Foods";
   
   var suppliersfolder = DriveApp.createFolder(inputsupplier);
     
@@ -165,12 +165,6 @@ function create_new_brand(){
   sub2.createFolder("2. Source");
   sub2.createFolder("3. Misc");
     
-
-
-  
-  
-  
-  
   //Supplier's Misc Folder
   var suppliersmisc=suppliersfolder.createFolder(inputsupplier+": 4. Misc");
   
