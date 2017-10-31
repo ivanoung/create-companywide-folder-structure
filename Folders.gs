@@ -15,6 +15,10 @@ function create_new_company_folder_structure(){
   //Insert name of company
   var newcompname = "Ottity";
   
+  
+  
+  
+  
   //Create Root Directory
   var newcompfolder=DriveApp.createFolder(newcompname);
   
@@ -125,9 +129,11 @@ function create_new_brand(){
 
   
     //Create Supplier/Brand Sub-Directory
-  var inputsupplier= "Sin Lap Sang";
+  var inputsupplier= "Derma E";
   
-  var suppliersfolder = DriveApp.createFolder(inputsupplier);
+  var destinated_folder_id = "0B_r3x_n7cqPbV29XdzdlUjBQdkk"
+  
+  var suppliersfolder = DriveApp.getFolderById(destinated_folder_id).createFolder(inputsupplier);
     
   //Supplier's Admin Folder
   var suppliersadmin=suppliersfolder.createFolder(inputsupplier+": 1. Admin");
