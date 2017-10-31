@@ -125,7 +125,7 @@ function create_new_brand(){
 
   
     //Create Supplier/Brand Sub-Directory
-  var inputsupplier= "Jomeis Fine Foods";
+  var inputsupplier= "Sin Lap Sang";
   
   var suppliersfolder = DriveApp.createFolder(inputsupplier);
     
